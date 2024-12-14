@@ -23,9 +23,11 @@ export class AppComponent implements OnInit {
   private httpClient = inject(HttpClient);
 
   ngOnInit(): void {
-    // this.fetchUsers().subscribe((transformData)=>{
-    //   this.data = transformData
-    // });
+    this.fetchUsers().subscribe((transformData)=>{
+      // this.data = transformData
+      console.log(transformData);
+      
+    });
 
     this.fetchDirectSalesData().subscribe((transformData)=>{
       // this.directSalesData = transformData;
