@@ -1,4 +1,4 @@
-import { join } from 'lodash';
+import { join } from 'lodash-es';
 import { INewUser } from '../interfaces/users.type';
 import { UsersDto } from '../dto/users.dto';
 

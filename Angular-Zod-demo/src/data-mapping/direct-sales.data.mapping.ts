@@ -1,4 +1,3 @@
-import { join } from 'lodash';
 import { DirectSaleApiResponseDto } from '../dto/direct-sales.dto';
 import { IDirectSaleTransformedData, ItemProduct } from '../interfaces/direct-sales.type';
 
